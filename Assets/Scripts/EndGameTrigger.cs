@@ -19,6 +19,6 @@ public class EndGameTrigger : MonoBehaviour
         Debug.Log("¡Juego Terminado!");
         // Puedes cargar una escena de fin o cerrar el juego
         // SceneManager.LoadScene("EndScene"); // Opcional, cargar escena final
-        // Application.Quit(); // Cierra la aplicación
+        Application.Quit(); // Cierra la aplicación
     }
 }
